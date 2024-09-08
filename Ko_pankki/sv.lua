@@ -1,4 +1,4 @@
-local discordWebhook = "https://discordapp.com/api/webhooks/1282355300497887252/wFmt94k0YgSLUKpVcbkB3cXIlLkLllFcuTYV3ai9OqYJXjLl-4QWfBOFw_tsNwDV-zXd"
+local discordWebhook = "WEBHOOK HERE"
 
 local function sendToDiscord(title, description, color)
     local embed = {
