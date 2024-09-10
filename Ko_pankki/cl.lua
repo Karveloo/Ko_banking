@@ -1,6 +1,5 @@
 local ESX = exports['es_extended']:getSharedObject()
 
--- Funktio, joka hakee pelaajan tiedot ja avaa valikon
 local function avaaPankki()
     ESX.TriggerServerCallback('tiedot', function(playerData)
         local pankkissa = playerData.accounts.bank
@@ -105,7 +104,6 @@ RegisterNetEvent('ko:siirra', function()
     end
 end)
 local ESX = exports['es_extended']:getSharedObject()
--- Funktio, joka hakee pelaajan tiedot ja avaa valikon
 local function avaaPankki()
     ESX.TriggerServerCallback('tiedot', function(playerData)
         local pankkissa = playerData.accounts.bank
